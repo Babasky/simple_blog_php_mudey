@@ -1,0 +1,144 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+header h2 {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+header a {
+    color: #fff;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {    
+    max-width: 850px;
+    margin: 20px auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.post-head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-head h1 {
+    margin: 0;
+}
+
+form {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    margin: 20px auto;
+}
+
+.form-control {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    outline: none;
+    flex: 1;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+}
+
+textarea {
+    resize: none;
+}
+
+.btn {    
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #0069d9;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.btn-danger:hover {
+    background-color: #bd2130;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #1d1d1d;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+}
+
+th{
+    background-color: #0069d9;
+    color: #fff;
+}
+
+.post-detail{
+    background-color: #fff;
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+.post-detail img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+
